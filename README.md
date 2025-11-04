@@ -47,7 +47,7 @@ blog-api-project/
 2. Run `composer install`
 3. Create a MySQL database and import `database.sql`
 4. Configure database credentials in `config/database.php`
-5. Set up a virtual host pointing to the `public` directory
+5. Set up a virtual host pointing to the `public` directory (run cd public/ php -S localhost:8000)
 
 ## API Endpoints
 
