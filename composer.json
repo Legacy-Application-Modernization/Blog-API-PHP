@@ -1,0 +1,16 @@
+{
+    "name": "blog/api",
+    "description": "Blog Management RESTful API",
+    "type": "project",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Blog\\": "src/"
+        }
+    },
+    "require": {
+        "php": ">=7.4",
+        "ext-pdo": "*",
+        "ext-json": "*"
+    }
+}
