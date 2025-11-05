@@ -1,0 +1,41 @@
+# Composer
+vendor/
+composer.lock
+
+# Composer setup script
+composer-setup.php
+
+# Environment
+.env
+.env.*
+
+# Laravel / frameworks (optional)
+/storage/
+/bootstrap/cache/
+
+# Node/npm
+node_modules/
+npm-debug.log
+
+# PHPUnit / test output
+.phpunit.result.cache
+coverage/
+
+# IDEs
+/.idea/
+.vscode/
+*.iml
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs and temp files
+*.log
+tmp/
+build/
+cache/
+
+# Misc
+*.sqlite
+/.phpunit.cache
