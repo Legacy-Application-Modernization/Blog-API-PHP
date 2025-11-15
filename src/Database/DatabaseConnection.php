@@ -26,7 +26,7 @@ class DatabaseConnection
             $config = require __DIR__ . '/../../config/database.php';
             
             $dsn = sprintf(
-                'mysql:host=%s;dbname=%s;charset=%s',
+                'postgres:host=%s;dbname=%s;charset=%s',
                 $config['host'],
                 $config['dbname'],
                 $config['charset']
